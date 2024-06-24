@@ -9,15 +9,25 @@ export default function Footer() {
           Our third decade of climate action: join us
         </a>
       </div>
-      <div className="large:order-1 flex justify-center gap-x-8 p-3">
-        <a className="hover:cursor-pointer hover:underline">Advertising</a>
-        <a className="hover:cursor-pointer hover:underline">Business</a>
-        <a className="hover:cursor-pointer hover:underline">How Search works</a>
+      <div className="large:order-1 large:justify-start flex justify-center p-3">
+        <a className="px-[15px] hover:cursor-pointer hover:underline">
+          Advertising
+        </a>
+        <a className="px-[15px] hover:cursor-pointer hover:underline">
+          Business
+        </a>
+        <a className="px-[15px] hover:cursor-pointer hover:underline">
+          How Search works
+        </a>
       </div>
-      <div className="large:order-3 large:justify-end flex justify-center gap-x-8 p-3">
-        <a className="hover:cursor-pointer hover:underline">Privacy</a>
-        <a className="hover:cursor-pointer hover:underline">Terms</a>
-        <a className="hover:cursor-pointer hover:underline">Settings</a>
+      <div className="large:order-3 large:justify-end flex justify-center p-3">
+        <a className="px-[15px] hover:cursor-pointer hover:underline">
+          Privacy
+        </a>
+        <a className="px-[15px] hover:cursor-pointer hover:underline">Terms</a>
+        <a className="px-[15px] hover:cursor-pointer hover:underline">
+          Settings
+        </a>
       </div>
     </div>
   );
