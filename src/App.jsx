@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <div className="font-primary text-primary text-sm">
+    <div className="font-primary min-h-dvh text-primary text-sm">
       <Navbar />
       <Main />
       <Footer />
